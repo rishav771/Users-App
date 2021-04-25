@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+</head>
+
+<body class="bg-img">
+
+    <div id="loading">
+        <h1> Loading ...</h1>
+        <svg class="spinner" width="165px" height="165px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+      <circle class="path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle>
+    </svg>
+    </div>
+
+    <div class="title">
+        <p>USERS</p>
+    </div>
+
+    <div class="optionbox">
+        <select id="price-sort">
+      <option value="*">None</option>
+      <option data-sorttype="fir" value="f_name">First Name</option>
+      <option data-sorttype="las" value="l_name">Last Name</option>
+    </select>
+    </div>
+
+
+
+    <div class="cards">
+
+        <div class="card">
+            <div class="card__image-holder">
+                <img class="card__image" src="https://reqres.in/img/faces/1-image.jpg" alt="per1" />
+            </div>
+            <div class="card-title">
+                <a href="#" class="toggle-info btn">
+                    <span class="left"></span>
+                    <span class="right"></span>
+                </a>
+                <h2>
+                    <span class="f-name">George</span>
+                    <span class="l-name">Bluth</span>
+                    <small>george.bluth@reqres.in</small>
+                </h2>
+            </div>
+            <div class="card-flap flap1">
+                <div class="card-description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                </div>
+                <div class="card-flap flap2">
+                    <div class="card-actions" onclick="NewTab()">
+                        <a href="user.html" class="btn">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card__image-holder">
+                <img class="card__image" src="https://reqres.in/img/faces/2-image.jpg" alt="per2" />
+            </div>
+            <div class="card-title">
+                <a href="#" class="toggle-info btn">
+                    <span class="left"></span>
+                    <span class="right"></span>
+                </a>
+                <h2>
+                    <span class="f-name">Janet</span>
+                    <span class="l-name">Weaver</span>
+                    <small>janet.weaver@reqres.in</small>
+                </h2>
+            </div>
+            <div class="card-flap flap1">
+                <div class="card-description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                </div>
+                <div class="card-flap flap2">
+                    <div class="card-actions" onclick="NewTab()">
+                        <a href="user.html" class="btn">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card__image-holder">
+                <img class="card__image" src="https://reqres.in/img/faces/3-image.jpg" alt="per3" />
+            </div>
+            <div class="card-title">
+                <a href="#" class="toggle-info btn">
+                    <span class="left"></span>
+                    <span class="right"></span>
+                </a>
+                <h2>
+                    <span class="f-name">Emma</span>
+                    <span class="l-name">Wong</span>
+                    <small>emma.wong@reqres.in</small>
+                </h2>
+            </div>
+            <div class="card-flap flap1">
+                <div class="card-description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                </div>
+                <div class="card-flap flap2">
+                    <div class="card-actions" onclick="NewTab()">
+                        <a href="user.html" class="btn">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card__image-holder">
+                <img class="card__image" src="https://reqres.in/img/faces/4-image.jpg" alt="per4" />
+            </div>
+            <div class="card-title">
+                <a href="#" class="toggle-info btn">
+                    <span class="left"></span>
+                    <span class="right"></span>
+                </a>
+                <h2>
+                    <span class="f-name">Eve</span>
+                    <span class="l-name">Holt</span>
+                    <small>eve.holt@reqres.in</small>
+                </h2>
+            </div>
+            <div class="card-flap flap1">
+                <div class="card-description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                </div>
+                <div class="card-flap flap2">
+                    <div class="card-actions" onclick="NewTab()">
+                        <a href="user.html" class="btn">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card__image-holder">
+                <img class="card__image" src="https://reqres.in/img/faces/5-image.jpg" alt="per5" />
+            </div>
+            <div class="card-title">
+                <a href="#" class="toggle-info btn">
+                    <span class="left"></span>
+                    <span class="right"></span>
+                </a>
+                <h2>
+                    <span class="f-name">Charles</span>
+                    <span class="l-name">Morris</span>
+                    <small>charles.morris@reqres.in</small>
+                </h2>
+            </div>
+            <div class="card-flap flap1">
+                <div class="card-description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                </div>
+                <div class="card-flap flap2">
+                    <div class="card-actions" onclick="NewTab()">
+                        <a href="user.html" class="btn">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card__image-holder">
+                <img class="card__image" src="https://reqres.in/img/faces/6-image.jpg" alt="per6" />
+            </div>
+            <div class="card-title">
+                <a href="#" class="toggle-info btn">
+                    <span class="left"></span>
+                    <span class="right"></span>
+                </a>
+                <h2>
+                    <span class="f-name">Tracey</span>
+                    <span class="l-name">Ramos</span>
+                    <small>tracey.ramos@reqres.in</small>
+                </h2>
+            </div>
+            <div class="card-flap flap1">
+                <div class="card-description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                </div>
+                <div class="card-flap flap2">
+                    <div class="card-actions" onclick="NewTab()">
+                        <a href="user.html" class="btn">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <script src="js/hack.js"></script>
+</body>
+
+</html>

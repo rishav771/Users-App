@@ -1,4 +1,4 @@
-# users
+# Users
 Used HTML, CSS, Vanilla -JS created a mini project
 
 
